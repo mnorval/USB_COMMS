@@ -1,0 +1,36 @@
+[DeviceName]
+Value=P18F2550
+[DeviceClock]
+Value=20
+[MainUnit]
+Value=USB_COMMS.c
+[DeviceFlags]
+Count=7
+Value0=_FOSC_INTOSC_HS_1H = $00FB
+Value1=_FOSC_HS_1H = $00FC
+Value2=_FOSC_HSPLL_HS_1H = $00FE
+Value3=_WDT_OFF_2H = $00FE
+Value4=_LVP_OFF_4L = $00FB
+Value5=_XINST_OFF_4L = $00BF
+Value6=_DEBUG_ON_4L = $007F
+[BuildType]
+bType=1
+[ProjectFiles]
+Count=1
+Value0=USB_COMMS.c
+[HeaderFiles]
+Count=0
+[ObjLibFiles]
+Count=0
+[PLDFiles]
+Count=0
+[EEPROMinfo]
+isused=0
+[SearchPath]
+Count=4
+Value0=C:\Program Files\Mikroelektronika\mikroC\Defs\
+Value1=C:\Program Files\Mikroelektronika\mikroC\Uses\p18\
+Value2=C:\DOCUMENTS\PROGRAMMING & ELECTRONICS\PIC MICRO\PROJECTS\MIKRO_C\USB_COMMS\
+Value3=C:\DOCUMENTS\PROGRAMMING & ELECTRONICS\PIC\PROJECTS\USB_COMMS\
+[IncludePath]
+Count=0
